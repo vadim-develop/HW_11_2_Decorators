@@ -3,7 +3,6 @@ from typing import Callable, Any, Optional
 import functools
 
 
-
 def log(filename: Optional[str] = None) -> Callable:
     """
     Декоратор для логирования выполнения функций.
